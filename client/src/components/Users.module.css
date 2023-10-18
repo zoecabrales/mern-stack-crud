@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 100vh; 
+    background-color: #6C757D;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2 {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 3rem;
+    justify-content: space-around;
+    align-items: center; 
+  }
+  
