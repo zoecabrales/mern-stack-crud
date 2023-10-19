@@ -24,7 +24,7 @@ function UpdateUser() {
   const updateUserInfo = (e) => {
     e.preventDefault();
     axios
-      .put("http://localhost:3001/updateUser/" + id, { name, email, age })
+      .put(`http://localhost:3001/updateUser/${id}`, { name, email, age })
       .then((res) => {
         console.log(res);
         navigate("/");
